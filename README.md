@@ -6,7 +6,7 @@
 - 👯 I want to collaborate with other cybersecurity learners and content creators (e.g., for technical write-ups, security projects, or GitHub repositories). <br>
 I am looking for motivated individuals with experience in topics such as cybersecurity, SOC operations, digital forensics, threat hunting, malware analysis, programming, and incident response. <br>
 Some platforms and communities I follow are **[Security Blue Team](https://www.securityblue.team/)**, **[CyberDefenders](https://cyberdefenders.org/)**, **[Blue Team Labs Online](https://blueteamlabs.online/)**, **[TryHackMe](https://tryhackme.com/)**, **[Hack The Box](https://www.hackthebox.com/)**, and **[picoCTF](https://picoctf.org/)**. <br>
-If you're interested in learning cybersecurity, creating technical content, solving security labs, or building Blue Team projects, then feel free to contact me at `<hohoangtan2k5@gmail.com>`.
+If you're interested in learning cybersecurity, creating technical content, solving security labs, or building Blue Team projects, then feel free to contact me at hohoangtan2k5@gmail.com>.
 
 
 ## 🌐 Connect with me:
