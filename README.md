@@ -1,10 +1,50 @@
-![👋 Hi, my name is Tan San](https://static.wixstatic.com/media/53fad0_ce0704caa0174d6aa9b2b8101a62fa77~mv2.gif)
+                           000W"    `"Z~~Z00
+                       00P~- ---        -  `"Z0
+                     0Z~--'-                  -"Z0
+                  00@~ -                         "00
+                 0Z --                             ~W0
+                05--                               - ~Q
+               0^                                      Z
+              F                                         Z
+             &                                          -B
+            05-                                          ~0
+            B.                                            ~0
+            H--                                            0
+           0---                                            y
+           &                 -                             7
+           5                --   - --                      7
+           6                -- -------       ---           y
+           0.   -           ---=\/-/------ -  --.          0
+            g     -- -      -///<</<<zz//----  -"--..     "
+            0,-  . .--      -"<>{Lz<{LL<--.,,,.-/"\z}-    B
+             0\--<,---..,,==//<LLLLL>7L>LLLLLLLzzzzLL\  -"
+              U\-LLz/zzLLLLLLLLLLLLLLLLLLLLL7ZZLLLLLL5  -B
+              0\-LLLLLL777"77LLLLLLCCCLLL"~--/""{LLLL5  <Z0
+              B5-{LLL{/';--=;"LLLLLLCLLL//},,{<z>LLLLL /5/Z
+              BL {LLL>z<<}=/<z{LLLLLLLCLL{<>L7LLLLLLLL-7C<7B
+              05.|LLLLLL7{<{{LLLLLLLLLLLLLLLLLCCLLLLLL-7CL/B
+              0C<"LLLLLLLLLLLLLLLLLLLLLLCLLLLLCCCCCLLL/<{ZLB
+               @5-LLLLLLLLLLLL7LLL{LL7LLLLLLLLCCCCCLL{></ZLB
+               B5/{LLCCC7LLLLLLLLLLLLLL777LLLLLCCZCCL<C<yCy0
+               0Cz<LLLCCCLLLLLL<{LLLLLLLL{{LLLCZZZCCLL5CCLB
+                @L5LLLCCCLLLLLLLL7LLLZLLCLLL{LLCCCCLLLCCLQ
+                0CC{LLLCLLLLLL{{"<<7L7L<>LLLLLLLLLLLLLLL0
+                 @CLLLLLLLLLLLLL>>{LLLLLLLLLLz7LLLLLLy00
+                  0@LLLLLLLLLLLLLLLL{LL7777LLLLLLLLLL0
+                   0CLLLLLLLLLL{<<<<<<<yLg'"{7LLLLCLy
+                    @7LLLLL{{/'/yLpyw@@Z7{zLLLLLLLLLE
+                    0CLLLLLLLLz<</""/<<>LLLCLLLLLLLL0
+                     0LLLLLLLLLL<{LLL777LLCLLCLLLLLQ
+                      @LLLLLLLLL{><<<<<{LCLCCLLLL{LB
+                       @{LLLLLLLLLL</>LLLLCCCLLL{LLB
+                       BL<{{7LLLLLLLLLLLCCCCLL{LLLLE
+                        5L><<{7LLLLLL7LLLLLL{{LLLLLE
+                        5LL{<<<<{{{{{{{{7L{LLLLLLLLZ
+                       0CLLL{<<<<<<<<<<<{LLLLLLLLLLZ00
+                       @LLLLL{{{{{{{LLLLLLLLLLLLLLL<"70
+                      BP<LLLL{L{{{{{LLLLLLLLLLLLLLL5-/E0
 
-<div align="center">
 
-# 👋 こんにちは、タンです。
-
-</div>
 
 # 💫 About Me:
 🔭 I’m currently working on personal SOC and SIEM projects  <br>👯 I’m looking to collaborate on Blue Team and Digital Forensics projects  <br>🤝 I’m looking for help with Threat Hunting and Malware Analysis  <br>🌱 I’m currently learning Python, and Incident Response  <br>💬 Ask me about SOC, Log Analysis, and Digital Forensics  <br>⚡ Fun fact: I enjoy turning suspicious logs into clear attack stories
