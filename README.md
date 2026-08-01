@@ -1,48 +1,42 @@
-                           000W"    `"Z~~Z00
-                       00P~- ---        -  `"Z0
-                     0Z~--'-                  -"Z0
-                  00@~ -                         "00
-                 0Z --                             ~W0
-                05--                               - ~Q
-               0^                                      Z
-              F                                         Z
-             &                                          -B
-            05-                                          ~0
-            B.                                            ~0
-            H--                                            0
-           0---                                            y
-           &                 -                             7
-           5                --   - --                      7
-           6                -- -------       ---           y
-           0.   -           ---=\/-/------ -  --.          0
-            g     -- -      -///<</<<zz//----  -"--..     "
-            0,-  . .--      -"<>{Lz<{LL<--.,,,.-/"\z}-    B
-             0\--<,---..,,==//<LLLLL>7L>LLLLLLLzzzzLL\  -"
-              U\-LLz/zzLLLLLLLLLLLLLLLLLLLLL7ZZLLLLLL5  -B
-              0\-LLLLLL777"77LLLLLLCCCLLL"~--/""{LLLL5  <Z0
-              B5-{LLL{/';--=;"LLLLLLCLLL//},,{<z>LLLLL /5/Z
-              BL {LLL>z<<}=/<z{LLLLLLLCLL{<>L7LLLLLLLL-7C<7B
-              05.|LLLLLL7{<{{LLLLLLLLLLLLLLLLLCCLLLLLL-7CL/B
-              0C<"LLLLLLLLLLLLLLLLLLLLLLCLLLLLCCCCCLLL/<{ZLB
-               @5-LLLLLLLLLLLL7LLL{LL7LLLLLLLLCCCCCLL{></ZLB
-               B5/{LLCCC7LLLLLLLLLLLLLL777LLLLLCCZCCL<C<yCy0
-               0Cz<LLLCCCLLLLLL<{LLLLLLLL{{LLLCZZZCCLL5CCLB
-                @L5LLLCCCLLLLLLLL7LLLZLLCLLL{LLCCCCLLLCCLQ
-                0CC{LLLCLLLLLL{{"<<7L7L<>LLLLLLLLLLLLLLL0
-                 @CLLLLLLLLLLLLL>>{LLLLLLLLLLz7LLLLLLy00
-                  0@LLLLLLLLLLLLLLLL{LL7777LLLLLLLLLL0
-                   0CLLLLLLLLLL{<<<<<<<yLg'"{7LLLLCLy
-                    @7LLLLL{{/'/yLpyw@@Z7{zLLLLLLLLLE
-                    0CLLLLLLLLz<</""/<<>LLLCLLLLLLLL0
-                     0LLLLLLLLLL<{LLL777LLCLLCLLLLLQ
-                      @LLLLLLLLL{><<<<<{LCLCCLLLL{LB
-                       @{LLLLLLLLLL</>LLLLCCCLLL{LLB
-                       BL<{{7LLLLLLLLLLLCCCCLL{LLLLE
-                        5L><<{7LLLLLL7LLLLLL{{LLLLLE
-                        5LL{<<<<{{{{{{{{7L{LLLLLLLLZ
-                       0CLLL{<<<<<<<<<<<{LLLLLLLLLLZ00
-                       @LLLLL{{{{{{{LLLLLLLLLLLLLLL<"70
-                      BP<LLLL{L{{{{{LLLLLLLLLLLLLLL5-/E0
+```text
+                                    0MM0F~    `~7~~7M000
+                                0MZ~'   '.            -~Z00
+                              07~.-                     - ~Z0
+                           0@^--                            '70
+                          07--                               - ~W
+                        0F'                                      "0
+                       0^                                         "0
+                      05-                                          70
+                      B-                                            ^0
+                      f--                                            B
+                     B                                               7
+                     U                    -  -                       7
+                     5                -- -------       ---           y
+                     0.               ---=</-//--,-- -  --.  -      -0
+                      & -   ----      -/</{L/<<Lz/"-  -----\./\     y
+                       &-- , ---   _.,,/<{LLLL<7L<z\/zzzzz//>LL\   .0
+                        g--{z/\//zLLLLLLLLLLLLLLLLLLLLLLCLLLLLLz- -B
+                        0\-LLLLLL77""77LLLLLLCCCLLL"'--=""{LLLL5  zZ0
+                        B5-{LLL<".s, "r"7LLLLLCLLLz<<=z{LLLLLLLL->C/Z0
+                        05-<LLLLLLLz><{{LLLLLLLLLLLLLLLLLCLLLLLL-7Cz/B
+                        05\"LLLLLLLLLLLLLLLLLLLLLLCLLLLLLCCCLLLL/<7LLB
+                         @5-LLLLLLLLLLLL7LLL{LLLLLLLLLLLCCCCCLL{></ZLB
+                         0C/{LLCCCLLLLLLLLLLLLLLL{<7LLLLZCCZCCL<CLLCZ
+                         0CL<LLLCCCLLLLL{>LLLLLLCLLL{{LLLCZCCLLLLCLy0
+                          @LC{LLCCCLLLLLL7<<{LLL7<<LLLLLLLLCLLLLLCp0
+                          0@CLLLLLLLLLLLLLz<>LL{LLLLLLL{7LLLLLLy@0
+                            0@LLLLLLLLLLLLLL{{>L77777LLLLLLLCLL0
+                             0CLLLLLLLL7<</<<<<jppLS,/LLLLLLLLZ
+                              BLLLLLLLLz\<777Z7ZZ/>{LCLLLLLLLLB
+                               0LLLLLLLLLz<{LLLLLLLLCCLLLLLLLE
+                                @jLLLLLLLLL><<<<<{LCLCCLLLL{LB
+                                 B{{LLLLLLLLL><LLLLLCCCLL7{LLB
+                                 0L{<<<{LLLLLLLLLLCCCL7{LLLLLE
+                                  5LL{<<<{L7{{{L{77L7{LLLLLLLZ
+                                 0CLLL{<<<<<<<<<<<{LLLLLLLLLLZ00
+                                0@{LLLL{{{{{{{LLLLLLLLLLLLLLL</70
+                               0@@/{LLLLL{{{{{{{LLLLLLLLLLLLL5 -Z0
+```
 
 
 
