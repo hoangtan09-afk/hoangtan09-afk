@@ -11,14 +11,15 @@
     <td valign="top" align="center">
       <img
         src="./assets/avatar-ascii.svg"
-        width="300"
+        width="250"
         alt="ASCII portrait"
       />
     </td>
+
     <td valign="top" align="center">
       <img
         src="./assets/info-card.svg"
-        width="430"
+        width="455"
         alt="Terminal profile information"
       />
     </td>
