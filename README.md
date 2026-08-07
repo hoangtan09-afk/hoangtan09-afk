@@ -1,30 +1,29 @@
-<h3 align="center">
-  hoangtan09-afk@github ~ $ whoami
-</h3>
 
-<table>
+
+# Hello, my name is `Tan`. 👋 
+
+### I'm an Information Assurance student at [FPT University](https://fpt.edu.vn/) and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
+
+<h3 align="center">hoangtan09-afk@github ~ $ whoami</h3>
+
+<table align="center">
   <tr>
-    <td valign="top" width="42%">
+    <td valign="top" align="center">
       <img
         src="./assets/avatar-ascii.svg"
-        width="370"
+        width="300"
         alt="ASCII portrait"
       />
     </td>
-
-    <td valign="top" width="58%">
+    <td valign="top" align="center">
       <img
         src="./assets/info-card.svg"
-        width="490"
+        width="430"
         alt="Terminal profile information"
       />
     </td>
   </tr>
 </table>
-
-# Hello, my name is `Tan`. 👋 
-
-### I'm an Information Assurance student at [FPT University](https://fpt.edu.vn/) and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
 
 - 🌱 Recently, I've been working on developing my skills in **[Blue Team Level 1](https://www.securityblue.team/certifications/blue-team-level-1)**, SOC investigation, network traffic analysis, digital forensics, and Python automation.
 - 👯 I want to collaborate with other cybersecurity learners and content creators (e.g., for technical write-ups, security projects, or GitHub repositories). <br>
