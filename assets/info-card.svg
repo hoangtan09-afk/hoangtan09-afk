@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="720"
+height="460"
+viewBox="0 0 720 460">
+
+<rect
+    width="100%"
+    height="100%"
+    rx="18"
+    fill="#0d1117"
+    stroke="#30363d"
+/>
+
+<!-- Terminal top bar -->
+<line
+    x1="0"
+    y1="48"
+    x2="720"
+    y2="48"
+    stroke="#30363d"
+/>
+
+<!-- Window buttons -->
+<circle cx="22" cy="24" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="24" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="24" r="6" fill="#27c93f"/>
+
+<!-- Terminal title -->
+<text
+    x="360"
+    y="29"
+    text-anchor="middle"
+    font-family="Consolas, Courier New, monospace"
+    font-size="14"
+    fill="#8b949e"
+>
+hoangtan09-afk@github: ~ $ ./whoami
+</text>
+
+<style>
+
+.label {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 19px;
+    font-weight: bold;
+    fill: #58a6ff;
+}
+
+.value {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 19px;
+    fill: #c9d1d9;
+}
+
+.prompt {
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 22px;
+    font-weight: bold;
+    fill: #7ee787;
+}
+
+.line {
+    opacity: 0;
+    animation: appear 0.4s forwards;
+}
+
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+</style>
+
+<!-- Prompt -->
+<text
+    class="prompt"
+    x="55"
+    y="105"
+>
+hoangtan09-afk@github ~ $ whoami
+</text>
+
+<g class="line" style="animation-delay:0.35s">
+
+    <text
+        class="label"
+        x="55"
+        y="165"
+    >
+        OS
+    </text>
+
+    <text
+        class="value"
+        x="190"
+        y="165"
+    >
+        Windows 11 / Ubuntu
+    </text>
+
+</g>
+
+<g class="line" style="animation-delay:0.53s">
+
+    <text
+        class="label"
+        x="55"
+        y="210"
+    >
+        Education
+    </text>
+
+    <text
+        class="value"
+        x="190"
+        y="210"
+    >
+        FPT University
+    </text>
+
+</g>
+
+<g class="line" style="animation-delay:0.71s">
+
+    <text
+        class="label"
+        x="55"
+        y="255"
+    >
+        Role
+    </text>
+
+    <text
+        class="value"
+        x="190"
+        y="255"
+    >
+        Information Assurance
+    </text>
+
+</g>
+
+<g class="line" style="animation-delay:0.89s">
+
+    <text
+        class="label"
+        x="55"
+        y="300"
+    >
+        Focus
+    </text>
+
+    <text
+        class="value"
+        x="190"
+        y="300"
+    >
+        Blue Team / SOC
+    </text>
+
+</g>
+
+<g class="line" style="animation-delay:1.07s">
+
+    <text
+        class="label"
+        x="55"
+        y="345"
+    >
+        Learning
+    </text>
+
+    <text
+        class="value"
+        x="190"
+        y="345"
+    >
+        Network Analysis / Digital Forensics
+    </text>
+
+</g>
+
+<g class="line" style="animation-delay:1.25s">
+
+    <text
+        class="label"
+        x="55"
+        y="390"
+    >
+        Stack
+    </text>
+
+    <text
+        class="value"
+        x="190"
+        y="390"
+    >
+        Python / Linux / Wazuh
+    </text>
+
+</g>
+
+</svg>

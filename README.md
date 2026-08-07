@@ -1,3 +1,27 @@
+<h3 align="center">
+  hoangtan09-afk@github ~ $ whoami
+</h3>
+
+<table>
+  <tr>
+    <td valign="top" width="42%">
+      <img
+        src="./assets/avatar-ascii.svg"
+        width="370"
+        alt="ASCII portrait"
+      />
+    </td>
+
+    <td valign="top" width="58%">
+      <img
+        src="./assets/info-card.svg"
+        width="490"
+        alt="Terminal profile information"
+      />
+    </td>
+  </tr>
+</table>
+
 # Hello, my name is `Tan`. 👋 
 
 ### I'm an Information Assurance student at [FPT University](https://fpt.edu.vn/) and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
