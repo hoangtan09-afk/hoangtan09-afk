@@ -93,7 +93,9 @@ scale_x = content_width / ascii_original_width
 scale_y = content_height / ascii_original_height
 
 # Chon scale nho hon de anh khong bi meo
-scale = min(scale_x, scale_y)
+PORTRAIT_ZOOM = 1.18
+
+scale = min(scale_x, scale_y) * PORTRAIT_ZOOM
 
 scaled_width = ascii_original_width * scale
 scaled_height = ascii_original_height * scale

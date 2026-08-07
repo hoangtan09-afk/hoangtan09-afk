@@ -7,23 +7,10 @@
 <h3 align="center">hoangtan09-afk@github ~ $ whoami</h3>
 
 <table align="center">
-  <tr>
-    <td valign="top" align="center">
-      <img
-        src="./assets/avatar-ascii.svg"
-        width="250"
-        alt="ASCII portrait"
-      />
-    </td>
-
-    <td valign="top" align="center">
-      <img
-        src="./assets/info-card.svg"
-        width="455"
-        alt="Terminal profile information"
-      />
-    </td>
-  </tr>
+<tr>
+<td valign="top" align="center"><img src="./assets/avatar-ascii.svg" width="320" alt="ASCII portrait" /></td>
+<td valign="top" align="center"><img src="./assets/info-card.svg" width="455" alt="Terminal profile information" /></td>
+</tr>
 </table>
 
 - 🌱 Recently, I've been working on developing my skills in **[Blue Team Level 1](https://www.securityblue.team/certifications/blue-team-level-1)**, SOC investigation, network traffic analysis, digital forensics, and Python automation.
