@@ -7,18 +7,48 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 INPUT = BASE_DIR / "assets" / "avatar-prepped.png"
 OUTPUT = BASE_DIR / "assets" / "avatar-ascii.svg"
 
-RAMP = " .:-=+*#%@"
-ASCII_WIDTH = 95
+# Nhieu muc sang/toi hon -> chi tiet tot hon
+RAMP = " .`:-=+*cs#%@"
 
-FONT_SIZE = 11
-CHAR_WIDTH = 6.6
-LINE_HEIGHT = 11
+ASCII_WIDTH = 115
 
-# Kich thuoc terminal panel
+FONT_SIZE = 10
+CHAR_WIDTH = 6.0
+LINE_HEIGHT = 10
+
+# Terminal panel
 PANEL_WIDTH = 420
 PANEL_HEIGHT = 460
 
+# Khoang trong quanh nguoi sau khi crop
+CROP_PADDING = 20
+
+
 image = Image.open(INPUT).convert("RGBA")
+
+# =========================================================
+# 1. CROP SAT VUNG NGUOI
+# =========================================================
+
+alpha = image.getchannel("A")
+bbox = alpha.getbbox()
+
+if bbox is None:
+    raise ValueError("Khong tim thay foreground trong anh.")
+
+left, top, right, bottom = bbox
+
+left = max(0, left - CROP_PADDING)
+top = max(0, top - CROP_PADDING)
+right = min(image.width, right + CROP_PADDING)
+bottom = min(image.height, bottom + CROP_PADDING)
+
+image = image.crop((left, top, right, bottom))
+
+
+# =========================================================
+# 2. GRAYSCALE + CONTRAST
+# =========================================================
 
 alpha = image.getchannel("A")
 
@@ -30,80 +60,121 @@ image = Image.merge(
     (gray, gray, gray, alpha)
 )
 
+
+# =========================================================
+# 3. RESIZE CHO ASCII
+# =========================================================
+
 original_width, original_height = image.size
 
 aspect_ratio = original_height / original_width
 
 ascii_height = int(
-    ASCII_WIDTH * aspect_ratio * 0.55
+    ASCII_WIDTH * aspect_ratio * 0.52
 )
 
 image = image.resize(
-    (ASCII_WIDTH, ascii_height)
+    (ASCII_WIDTH, ascii_height),
+    Image.Resampling.LANCZOS
 )
 
 pixels = image.load()
 
 ascii_lines = []
 
+
+# =========================================================
+# 4. CONVERT PIXEL -> ASCII
+# =========================================================
+
 for y in range(ascii_height):
+
     line = ""
 
     for x in range(ASCII_WIDTH):
 
         r, g, b, a = pixels[x, y]
 
+        # Pixel trong suot
         if a < 40:
             line += " "
             continue
 
         brightness = (r + g + b) / 3
 
-        # Tang sang nhe
-        brightness = min(
-            255,
-            brightness * 1.15
-        )
+        # Xac dinh vung mat: phan tren cua nhan vat
+        face_zone = y < ascii_height * 0.60
 
-        index = int(
-            (255 - brightness)
-            / 255
-            * (len(RAMP) - 1)
-        )
+        if face_zone:
+            # Vung mat: de trong nhieu hon de co negative space
+            if brightness > 175:
+                line += " "
+                continue
+            elif brightness > 155:
+                line += " "
+                continue
+            elif brightness > 138:
+                line += "."
+                continue
+            elif brightness > 122:
+                line += ":"
+                continue
 
-        index = max(
-            0,
-            min(index, len(RAMP) - 1)
-        )
+            darkness = (122 - brightness) / 122
+            darkness = max(0, min(darkness, 1))
 
-        line += RAMP[index]
+            SHADOW_RAMP = "-=+*#%@"
+            index = int(darkness * (len(SHADOW_RAMP) - 1))
+            line += SHADOW_RAMP[index]
+
+        else:
+            # Vung ao/co/vai: giu chi tiet hon
+            if brightness > 190:
+                line += " "
+                continue
+            elif brightness > 165:
+                line += "."
+                continue
+            elif brightness > 140:
+                line += ":"
+                continue
+
+            darkness = (140 - brightness) / 140
+            darkness = max(0, min(darkness, 1))
+
+            SHADOW_RAMP = "-=+*cs#%@"
+            index = int(darkness * (len(SHADOW_RAMP) - 1))
+            line += SHADOW_RAMP[index]
 
     ascii_lines.append(line)
 
 
-# Kich thuoc goc cua khoi ASCII
+# =========================================================
+# 5. TINH SCALE VA CAN GIUA
+# =========================================================
+
 ascii_original_width = ASCII_WIDTH * CHAR_WIDTH
 ascii_original_height = ascii_height * LINE_HEIGHT
 
-# Khu vuc ben trong terminal
-content_width = PANEL_WIDTH - 35
-content_height = PANEL_HEIGHT - 75
+content_width = PANEL_WIDTH - 30
+content_height = PANEL_HEIGHT - 70
 
 scale_x = content_width / ascii_original_width
 scale_y = content_height / ascii_original_height
 
-# Chon scale nho hon de anh khong bi meo
-PORTRAIT_ZOOM = 1.18
-
-scale = min(scale_x, scale_y) * PORTRAIT_ZOOM
+scale = min(scale_x, scale_y)
 
 scaled_width = ascii_original_width * scale
 scaled_height = ascii_original_height * scale
 
-# Can giua
+# Can chinh giua terminal
 offset_x = (PANEL_WIDTH - scaled_width) / 2
-offset_y = 62 + ((PANEL_HEIGHT - 62 - scaled_height) / 2)
+offset_y = 55 + ((PANEL_HEIGHT - 55 - scaled_height) / 2)
 
+
+# =========================================================
+# 6. SVG
+# =========================================================
 
 svg = f'''<svg
 xmlns="http://www.w3.org/2000/svg"
@@ -111,7 +182,6 @@ width="{PANEL_WIDTH}"
 height="{PANEL_HEIGHT}"
 viewBox="0 0 {PANEL_WIDTH} {PANEL_HEIGHT}">
 
-<!-- Terminal background -->
 <rect
     x="1"
     y="1"
@@ -122,7 +192,7 @@ viewBox="0 0 {PANEL_WIDTH} {PANEL_HEIGHT}">
     stroke="#30363d"
 />
 
-<!-- Top bar -->
+<!-- Terminal top bar -->
 <line
     x1="1"
     y1="42"
@@ -131,7 +201,7 @@ viewBox="0 0 {PANEL_WIDTH} {PANEL_HEIGHT}">
     stroke="#30363d"
 />
 
-<!-- macOS-style buttons -->
+<!-- Terminal buttons -->
 <circle cx="18" cy="21" r="5" fill="#ff5f56"/>
 <circle cx="34" cy="21" r="5" fill="#ffbd2e"/>
 <circle cx="50" cy="21" r="5" fill="#27c93f"/>
@@ -180,7 +250,7 @@ hoangtan09-afk@github: ~ $ ./portrait.sh
 for i, line in enumerate(ascii_lines):
 
     y = (i + 1) * LINE_HEIGHT
-    delay = i * 0.025
+    delay = i * 0.020
 
     svg += f'''
 <text
