@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./khanh.gif" alt="Animated cybersecurity GIF" width="100%" />
+</p>
+
 # Hello, my name is `Tan`. 👋 
 
 ### I'm currently studying Cybersecurity at [FPT University](https://fpt.edu.vn/) and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
