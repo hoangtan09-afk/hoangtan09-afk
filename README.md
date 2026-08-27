@@ -1,6 +1,6 @@
 # Hello, my name is `Tan`. 👋 
 
-### I'm currently studying Cybersecurity at [FPT University](https://fpt.edu.vn/) and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
+### I'm currently studying Cybersecurity and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
 
 - 🌱 Recently, I've been working on developing my skills in **[Blue Team Level 1](https://www.securityblue.team/certifications/blue-team-level-1)**, SOC investigation, network traffic analysis, digital forensics, and Python automation.
 - 👯 I want to collaborate with other cybersecurity learners and content creators (e.g., for technical write-ups, security projects, or GitHub repositories). <br>
