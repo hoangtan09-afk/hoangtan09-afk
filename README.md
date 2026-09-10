@@ -1,13 +1,30 @@
-# Hello, my name is `Tan`. 👋 
+# Ho Hoang Tan
 
-### I'm currently studying Cybersecurity and aspiring to become a SOC Analyst specializing in Blue Team and Cyber Defense. 
+### Blue Team • SOC • Digital Forensics
 
-- 🌱 Recently, I've been working on developing my skills in **[Blue Team Level 1](https://www.securityblue.team/certifications/blue-team-level-1)**, SOC investigation, network traffic analysis, digital forensics, and Python automation.
-- 👯 I want to collaborate with other cybersecurity learners and content creators (e.g., for technical write-ups, security projects, or GitHub repositories). <br>
+> “Logs don't lie. They just need someone patient enough to read them.”
 
-Actively learn through [**Security Blue Team**](https://www.securityblue.team/), [**CyberDefenders**](https://cyberdefenders.org/), [**Blue Team Labs Online**](https://blueteamlabs.online/), [**TryHackMe**](https://tryhackme.com/), [**Hack The Box**](https://www.hackthebox.com/), and [**picoCTF**](https://picoctf.org/). <br>
+I'm a Cybersecurity student focused on **Security Operations and Blue Teaming**.
 
-If you're interested in learning cybersecurity, solving security problems, or building some projects, feel free to contact me at hohoangtan2k5@gmail.com.
+I enjoy investigating security incidents, reconstructing attack timelines,
+analyzing network traffic, and digging through logs to understand
+**what happened, how it happened, and how it can be detected next time.**
+
+My current focus revolves around **SOC investigations, Digital Forensics,
+Network Security, Threat Detection, and Python automation**.
+
+Outside of labs, I document what I learn through technical write-ups
+and build small security projects to turn theory into something practical.
+
+---
+
+### `$ whoami`
+
+Cybersecurity student.  
+Blue Team learner.  
+Occasionally staring at logs longer than I probably should.
+
+📫 **Contact:** [hohoangtan2k5@gmail.com](mailto:hohoangtan2k5@gmail.com)
 
 
 ## 🌐 Connect with me:
