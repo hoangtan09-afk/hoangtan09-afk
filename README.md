@@ -1,28 +1,27 @@
 # Ho Hoang Tan
 
-### Blue Team • SOC • Digital Forensics
+### 🛡️ Blue Team • SOC • Digital Forensics
 
 > “Logs don't lie. They just need someone patient enough to read them.”
 
-I'm a Cybersecurity student focused on **Security Operations and Blue Teaming**.
+Cybersecurity student with a growing obsession for **logs, alerts, packets, and weird system artifacts**.
 
-I enjoy investigating security incidents, reconstructing attack timelines,
-analyzing network traffic, and digging through logs to understand
-**what happened, how it happened, and how it can be detected next time.**
+🔎 Incident investigation, timeline reconstruction, network traffic analysis.  
+🧩 Digital forensics, threat detection, Python automation.  
+📡 Turning noisy data into something that actually makes sense.
 
-My current focus revolves around **SOC investigations, Digital Forensics,
-Network Security, Threat Detection, and Python automation**.
-
-Outside of labs, I document what I learn through technical write-ups
-and build small security projects to turn theory into something practical.
+Mostly learning by **breaking things, investigating them, then writing down what happened**.
 
 ---
 
-### `$ whoami`
+## 💻 `$ whoami`
 
-Cybersecurity student.  
-Blue Team learner.  
-Occasionally staring at logs longer than I probably should.
+```text
+[+] Cybersecurity Student
+[+] Blue Team Learner
+[+] Log Enjoyer
+[~] SOC Analyst loading...
+```
 
 📫 **Contact:** [hohoangtan2k5@gmail.com](mailto:hohoangtan2k5@gmail.com)
 
