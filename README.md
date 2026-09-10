@@ -10,7 +10,7 @@ Cybersecurity student with a growing obsession for **logs, alerts, packets, and 
 🧩 Digital forensics, threat detection, Python automation.  
 📡 Turning noisy data into something that actually makes sense.
 
-Mostly learning by **breaking things, investigating them, then writing down what happened**.
+HACK TO LEARN.
 
 ---
 
